@@ -22,3 +22,6 @@ tt_t_gui_pat_background.psd
 
 * Multified phases
 *.mf
+
+# Level Editor DNA
+leveleditor/*/*.dna

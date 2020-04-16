@@ -574,6 +574,7 @@ dclass DistributedToon : DistributedPlayer {
   addOwnedAccessory(int8) ownsend airecv;
   removeOwnedAccessory(int8) ownsend airecv;
   setTickets(uint32) required broadcast ownrecv db;
+  setGagsUsed(uint32) required broadcast ownrecv db;
   setKartingHistory(uint8 [16]) required ownrecv db;
   setKartingTrophies(uint8 [33]) required ownrecv db;
   setKartingPersonalBest(uint32/1000 [6]) required ownrecv db;

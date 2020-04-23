@@ -21,6 +21,7 @@ group "daisysGarden" [
       count [ 0 ]
      ]
     ]
+
     wall [
      height [ 13 ]
      code [ "wall_md_board_ur" ]
@@ -84,6 +85,17 @@ group "daisysGarden" [
     ]
    ]
   ]
+ landmark_building "tb1:toon_landmark_DG_gag_shop_DNARoot" [
+   code [ "toon_landmark_DG_gag_shop" ]
+   building_type [ "gagshop" ]
+   title [ "Gag Shop" ]
+   pos [ -70.2301 -110.259 0.1 ]
+   nhpr [ 360 0 0.1 ]
+   door [
+    code [ "door_double_curved_ur" ]
+    color [ 0.8 0.54 0.61 1 ]
+   ]
+  ]
   node "buildings" [
    prop "linktunnel_gz_17000_DNARoot" [
     code [ "prop_chip_dale_enterance" ]
@@ -91,6 +103,7 @@ group "daisysGarden" [
     nhpr [ 105 -0.422594 0.309814 ]
     scale [ 1.0546 1.0546 1.0546 ]
    ]
+
    prop "linktunnel_dd_1000_DNARoot" [
     code [ "prop_outdoor_zone_entrance" ]
     pos [ 86.7098 148.899 0.0205739 ]
@@ -203,5 +216,6 @@ group "daisysGarden" [
    nhpr [ 0 0 -4 ]
    scale [ 1.33009 1 0.849568 ]
   ]
+ 
  ]
 ]

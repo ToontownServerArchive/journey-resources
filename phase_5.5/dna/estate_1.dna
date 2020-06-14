@@ -5,7 +5,7 @@ group "Estate" [
    group "fishing_pond_1" [
     prop "npc_fisherman_origin_0" [
     code [ "DCS" ]
-    pos [ 50.31 -160.559 0]
+    pos [ 50.31 -155.559 0]
     hpr [0 0 0 ]
    ]
     prop "fishing_spot_DNARoot" [
